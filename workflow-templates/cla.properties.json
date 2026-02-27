@@ -1,0 +1,6 @@
+{
+  "name": "CLA Assistant",
+  "description": "Contributor License Agreement check for all pull requests. Requires external contributors to sign the org CLA before merging.",
+  "iconName": "shield-check",
+  "categories": ["compliance"]
+}
