@@ -39,20 +39,27 @@ AgentField is where we build that stack in the open.
 
 ---
 
+## What we've shipped
+
+Production-grade autonomous agents. Open source. Apache 2.0. Each independently deployable.
+
+| | What it does | Scale |
+|---|---|---|
+| **[SWE-AF](https://github.com/Agent-Field/af-swe-claude)** | Autonomous engineering team — one API call ships planned, coded, tested, reviewed code | 400-500+ agents/build |
+| **[SEC-AF](https://github.com/Agent-Field/sec-af)** | Security auditor that proves exploitability, not just flags patterns | 200-300 agents/audit |
+| **[Contract-AF](https://github.com/Agent-Field/contract-af)** | Legal contract risk analyzer with adversarial verification and negotiation playbooks | 20-100+ agents/contract |
+| **[AF Deep Research](https://github.com/Agent-Field/af-deep-research)** | Autonomous research backend with self-correcting loops | 10,000+ agents/query |
+| **[Reactive Atlas](https://github.com/Agent-Field/af-reactive-atlas-mongodb)** | Turn any MongoDB collection into an AI intelligence layer | 3-14 agents/document |
+
+All run on [AgentField](https://github.com/Agent-Field/agentfield), the open source control plane.
+
+---
+
 ## What lives here
 
-This org is the home for:
-
-- **`agentfield`**
-  The open source control plane that runs AI agents like microservices, with queues, async webhooks, discovery, identity and audit in one binary.
-
-- **SDKs and examples**
-  Thin SDKs that let you write plain Python (and other languages over time) while the control plane handles the hard parts: long-running work, streaming notes, multi-agent calls, verifiable credentials.
-
-- **Specs, playbooks and experiments**
-  Reference designs for autonomous backends, IAM patterns for agents, and example workflows that show what a real agent economy looks like in production.
-
-If you want to understand where agent infrastructure is going, watching this org will tell you more than any single blog post.
+- **`agentfield`** — The open source control plane: queues, async webhooks, discovery, identity and audit in one binary.
+- **SDKs** — Thin Python SDK (more languages coming) so you write plain code while the control plane handles the hard parts.
+- **Specs and playbooks** — Reference designs for autonomous backends, IAM patterns for agents, and production workflow examples.
 
 ---
 
@@ -65,7 +72,7 @@ You can treat this org in three ways:
    - Watching this org is an easy way to track how the Internet of Agents stack is actually evolving.
 
 2. **As a lab**
-   - Use the examples to prototype serious use cases: refunds, treasury flows, claim handling, compliance checks, research workflows.
+   - Run [SWE-AF](https://github.com/Agent-Field/af-swe-claude), [SEC-AF](https://github.com/Agent-Field/sec-af), [Contract-AF](https://github.com/Agent-Field/contract-af), [AF Deep Research](https://github.com/Agent-Field/af-deep-research), or [Reactive Atlas](https://github.com/Agent-Field/af-reactive-atlas-mongodb) against your own projects.
    - Stress test the control plane with the kind of multi-agent fan-out you cannot safely run through a single monolith.
 
 3. **As infrastructure**
