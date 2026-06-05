@@ -1,10 +1,8 @@
 <div align="center">
 
-# AgentField
+<img src="hero.png" alt="AgentField — The AI Backend. Build agents like APIs." width="100%" />
 
-### Build agents like services. Scale them beyond chatbots.
-
-**The AI Backend** for production agents. Write Python, Go, or TypeScript — get callable REST APIs, async execution, memory, discovery, observability, identity, and verifiable audit, built in.
+**Build agents like services. Scale them beyond chatbots** — the AI Backend for production agents. Write Python, Go, or TypeScript and get callable REST APIs, async execution, memory, discovery, observability, identity, and verifiable audit, built in.
 
 [**⭐ Star AgentField**](https://github.com/Agent-Field/agentfield) · [Docs](https://agentfield.ai/docs) · [Website](https://agentfield.ai) · [Discord](https://discord.gg/aBHaXMkpqh)
 
@@ -29,6 +27,8 @@ Production-grade autonomous agents. Apache 2.0. Each independently deployable.
 | **[roboscribe-af](https://github.com/Agent-Field/roboscribe-af)** | Autonomous dataset annotator — agent swarm labels LeRobot demos without human raters | [![](https://img.shields.io/github/stars/Agent-Field/roboscribe-af?style=flat&label=&color=0c0b09&labelColor=8b7355&logo=github&logoColor=white&cacheSeconds=3600)](https://github.com/Agent-Field/roboscribe-af/stargazers) |
 
 All run on **[agentfield](https://github.com/Agent-Field/agentfield)** [![](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=&color=0c0b09&labelColor=8b7355&logo=github&logoColor=white&cacheSeconds=3600)](https://github.com/Agent-Field/agentfield/stargazers) — one binary handling identity, queues, discovery, audit, and routing.
+
+**[See all examples on agentfield.ai →](https://www.agentfield.ai/examples)**
 
 ---
 
