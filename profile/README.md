@@ -10,23 +10,98 @@
 
 ---
 
-## Built on AgentField
+## Applications built on AgentField
 
-Production-grade autonomous agents. Apache 2.0. Each independently deployable.
+Production-grade, open-source autonomous systems. Each is independently deployable. Select an icon to open its repository.
 
-| Project | What it does |
-|---|---|
-| **[SWE-AF](https://github.com/Agent-Field/SWE-AF)** | Autonomous engineering backend — hundreds of agents plan, code, test, and ship from one API call |
-| **[sec-af](https://github.com/Agent-Field/sec-af)** | Autonomous security-audit backend — agents prove exploitability with traces and evidence, no analyst in the loop |
-| **[plandb](https://github.com/Agent-Field/plandb)** | Agent-native issue tracker — backend that Claude Code, Codex, and other agents call directly (no human UI required) |
-| **[af-deep-research](https://github.com/Agent-Field/af-deep-research)** | Autonomous research backend — agents fan out, recurse, and self-correct without human direction |
-| **[reels-af](https://github.com/Agent-Field/reels-af)** | Background video pipeline — multi-agent backend ships viral reels / TikToks at ~$0.10 each, lights-out |
-| **[pr-af](https://github.com/Agent-Field/pr-af)** | Autonomous PR-review backend — agents triage every pull request before a human ever opens it |
-| **[af-reactive-atlas-mongodb](https://github.com/Agent-Field/af-reactive-atlas-mongodb)** | Background MongoDB enrichment — agents watch any collection and add an AI intelligence layer as documents arrive |
-| **[cloudsecurity-af](https://github.com/Agent-Field/cloudsecurity-af)** | Autonomous IaC scanner — agents reason about attack paths in the background, no analyst review required |
-| **[roboscribe-af](https://github.com/Agent-Field/roboscribe-af)** | Autonomous dataset annotator — agent swarm labels LeRobot demos without human raters |
+### Software engineering
 
-All run on **[agentfield](https://github.com/Agent-Field/agentfield)** — one binary handling identity, queues, discovery, audit, and routing.
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://github.com/Agent-Field/SWE-AF"><img src="apps/autonomous-engineering.png" width="104" height="104" alt="Autonomous engineering" /></a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/Agent-Field/pr-af"><img src="apps/code-review.png" width="104" height="104" alt="Code review" /></a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/Agent-Field/sec-af"><img src="apps/application-security-audit.png" width="104" height="104" alt="Application security audit" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Autonomous engineering</b></td>
+    <td align="center"><b>Code review</b></td>
+    <td align="center"><b>Application security audit</b></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Plan, build, and ship code.</sub></td>
+    <td align="center"><sub>Catch high-signal changes.</sub></td>
+    <td align="center"><sub>Trace exploitable risks.</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://github.com/Agent-Field/cloudsecurity-af"><img src="apps/cloud-infrastructure-security.png" width="104" height="104" alt="Cloud infrastructure security" /></a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/Agent-Field/plandb"><img src="apps/agent-work-planning.png" width="104" height="104" alt="Agent work planning" /></a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/Agent-Field/furrow"><img src="apps/parallel-agent-workspaces.png" width="104" height="104" alt="Parallel agent workspaces" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Cloud infrastructure security</b></td>
+    <td align="center"><b>Agent work planning</b></td>
+    <td align="center"><b>Parallel agent workspaces</b></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Map IaC attack paths.</sub></td>
+    <td align="center"><sub>Direct parallel agent work.</sub></td>
+    <td align="center"><sub>Fork isolated workspaces.</sub></td>
+  </tr>
+</table>
+
+### Intelligence & data
+
+<table>
+  <tr>
+    <td align="center" width="33%"><a href="https://github.com/Agent-Field/ragpack-af"><img src="apps/evidence-backed-document-research.png" width="104" height="104" alt="Evidence-backed document research" /></a></td>
+    <td align="center" width="33%"><a href="https://github.com/Agent-Field/af-deep-research"><img src="apps/recursive-deep-research.png" width="104" height="104" alt="Recursive deep research" /></a></td>
+    <td align="center" width="33%"><a href="https://github.com/Agent-Field/af-reactive-atlas-mongodb"><img src="apps/real-time-document-intelligence.png" width="104" height="104" alt="Real-time document intelligence" /></a></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Evidence-backed document research</b></td>
+    <td align="center"><b>Recursive deep research</b></td>
+    <td align="center"><b>Real-time document intelligence</b></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Cite evidence from messy files.</sub></td>
+    <td align="center"><sub>Keep researching until gaps close.</sub></td>
+    <td align="center"><sub>Enrich records on change.</sub></td>
+  </tr>
+</table>
+
+### Specialized workflows
+
+<table>
+  <tr>
+    <td align="center" width="33%"><a href="https://github.com/Agent-Field/contract-af"><img src="apps/contract-risk-analysis.png" width="104" height="104" alt="Contract risk analysis" /></a></td>
+    <td align="center" width="33%"><a href="https://github.com/Agent-Field/reels-af"><img src="apps/short-form-video-production.png" width="104" height="104" alt="Short-form video production" /></a></td>
+    <td align="center" width="33%"><a href="https://github.com/Agent-Field/roboscribe-af"><img src="apps/robotics-dataset-annotation.png" width="104" height="104" alt="Robotics dataset annotation" /></a></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Contract risk analysis</b></td>
+    <td align="center"><b>Short-form video production</b></td>
+    <td align="center"><b>Robotics dataset annotation</b></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Spot contract risks early.</sub></td>
+    <td align="center"><sub>Make finished short videos.</sub></td>
+    <td align="center"><sub>Label robot demonstrations.</sub></td>
+  </tr>
+</table>
+
+All applications run on **[AgentField](https://github.com/Agent-Field/agentfield)** — one binary for identity, queues, discovery, audit, and routing.
 
 **[See all examples on agentfield.ai →](https://www.agentfield.ai/examples)**
 
