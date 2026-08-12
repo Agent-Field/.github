@@ -20,6 +20,7 @@ Production-grade autonomous agents. Apache 2.0. Each independently deployable.
 | **[sec-af](https://github.com/Agent-Field/sec-af)** | Autonomous security-audit backend — agents prove exploitability with traces and evidence, no analyst in the loop |
 | **[plandb](https://github.com/Agent-Field/plandb)** | Agent-native issue tracker — backend that Claude Code, Codex, and other agents call directly (no human UI required) |
 | **[af-deep-research](https://github.com/Agent-Field/af-deep-research)** | Autonomous research backend — agents fan out, recurse, and self-correct without human direction |
+| **[person-to-brief-af](https://github.com/Agent-Field/person-to-brief-af)** | Adaptive person-intelligence backend — resolves identities, verifies public professional claims, and produces cited outreach briefs and PDFs from a name and company |
 | **[reels-af](https://github.com/Agent-Field/reels-af)** | Background video pipeline — multi-agent backend ships viral reels / TikToks at ~$0.10 each, lights-out |
 | **[pr-af](https://github.com/Agent-Field/pr-af)** | Autonomous PR-review backend — agents triage every pull request before a human ever opens it |
 | **[af-reactive-atlas-mongodb](https://github.com/Agent-Field/af-reactive-atlas-mongodb)** | Background MongoDB enrichment — agents watch any collection and add an AI intelligence layer as documents arrive |
