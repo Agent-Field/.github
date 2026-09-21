@@ -7,7 +7,7 @@ on:
 
 permissions:
   actions: write
-  contents: read
+  contents: write
   pull-requests: write
   statuses: write
 
@@ -27,8 +27,6 @@ jobs:
           path-to-document: "https://github.com/Agent-Field/.github/blob/main/CLA.md"
           branch: "main"
           allowlist: santoshkumarradha,AbirAbbas,dependabot[bot],github-actions[bot]
-          remote-organization-name: Agent-Field
-          remote-repository-name: .github
           create-file-commit-message: "chore: create CLA signatures file"
           signed-commit-message: "chore: $contributorName signed the CLA"
           custom-notsigned-prcomment: |
